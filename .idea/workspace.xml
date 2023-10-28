@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="606fc6cf-f2b3-4c8b-a745-5ee05f0aebeb" name="Changes" comment="First steps">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lar/Staff.java" afterDir="false" />
+    <list default="true" id="606fc6cf-f2b3-4c8b-a745-5ee05f0aebeb" name="Changes" comment="Annotation injection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lar/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lar/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lar/Main.java" afterDir="false" />
@@ -23,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,7 +97,9 @@
       <workItem from="1697232939379" duration="2511000" />
       <workItem from="1697268364003" duration="86000" />
       <workItem from="1697580137961" duration="93000" />
-      <workItem from="1698424058675" duration="686000" />
+      <workItem from="1698424058675" duration="1031000" />
+      <workItem from="1698515417422" duration="1012000" />
+      <workItem from="1698517168283" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <created>1697235259135</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697235259135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Constructor injection and setter injection">
+      <created>1698425012571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698425012571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="First steps" />
+    <MESSAGE value="Constructor injection and setter injection" />
+    <MESSAGE value="Annotation injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Annotation injection" />
   </component>
 </project>
