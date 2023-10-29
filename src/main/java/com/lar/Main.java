@@ -10,8 +10,25 @@ public class Main {
 //        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
 
-        Doctor staff = context.getBean(Doctor.class);
-        staff.assist();
+        Doctor doctor = context.getBean(Doctor.class);
+        doctor.assist();
+        doctor.setQualification("MBBS");
+        System.out.println(doctor);
+
+        Doctor doctor1 = context.getBean(Doctor.class);
+        System.out.println(doctor1);
+
+        // Both give this result because of the use of the SINGLETON Bean scope!
+//        Doctor is assisting
+//        Doctor{qualification='MBBS'}
+//        Doctor{qualification='MBBS'}
+
+        // 5 Types of Bean Scopes:
+        // Singleton
+        // Prototype
+        // Request
+        // Session
+        // Global Session
 
     }
 
