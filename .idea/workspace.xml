@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="606fc6cf-f2b3-4c8b-a745-5ee05f0aebeb" name="Changes" comment="Annotation injection">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="606fc6cf-f2b3-4c8b-a745-5ee05f0aebeb" name="Changes" comment="Singleton Bean scope">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lar/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lar/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lar/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1698424058675" duration="1031000" />
       <workItem from="1698515417422" duration="1012000" />
       <workItem from="1698517168283" duration="1442000" />
-      <workItem from="1698601767274" duration="1514000" />
+      <workItem from="1698601767274" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <created>1697235259135</created>
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698518031674</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Singleton Bean scope">
+      <created>1698604744840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698604744840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +147,7 @@
     <MESSAGE value="First steps" />
     <MESSAGE value="Constructor injection and setter injection" />
     <MESSAGE value="Annotation injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Annotation injection" />
+    <MESSAGE value="Singleton Bean scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton Bean scope" />
   </component>
 </project>
